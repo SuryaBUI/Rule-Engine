@@ -1,0 +1,39 @@
+[{
+	"ruleName": "DURATION_FILTER",
+	"facts": ["patient_list"],
+	"ruleOperation": "COMPARE_PARAM",
+	"operand": ["recordDate"],
+	"operation": ["BTW"],
+	"value": ["2017-01-01","2017-03-01"]
+},
+{
+ "ruleName": "TOTAL_DAYS",
+ "facts": ["DURATION_FILTER"],
+ "ruleOperation": "DAYS" ,
+ "value": ["2017-06-01","2017-12-30"]
+},
+{
+ "ruleName": "TOTAL_AMOUNT_RULE",
+ "facts": ["DURATION_FILTER"],
+ "ruleOperation": "AMOUNT",
+  "value": ["2017-06-01","2017-12-30"]
+},
+{
+ "ruleName": "DAILY_AVERAGE_CHARGES",
+ "facts": ["TOTAL_AMOUNT_RULE","TOTAL_DAYS"],
+ "ruleOperation": "DIVISION"
+},
+{
+ "ruleName": "ACCOUNTRECEIVABLEAMOUNT",
+ "facts": ["TOTAL_DAYS"],
+ "ruleOperation": "ACCOUNTRECEIVABLERULE"
+},
+{
+ "ruleName": "AR_DAYS",
+ "facts": ["ACCOUNTRECEIVABLEAMOUNT","DAILY_AVERAGE_CHARGES"],
+ "ruleOperation": "DIVISION",
+ "showOutput": true
+}
+
+
+]

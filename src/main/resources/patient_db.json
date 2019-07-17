@@ -1,0 +1,1940 @@
+{
+	"patient": [{
+			"id": "A12101",
+			"recordDate": "2017-02-23",
+			"demographic": {
+				"dob": "1975-03-08"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-03-22",
+				"admissionDate": "2017-12-03",
+				"dischargeDate": "2017-12-05"
+			},
+			"claims": {
+				"cliamID": "101",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "3",
+					"0100": "2",
+					"0114": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12102",
+			"recordDate": "2017-01-20",
+			"demographic": {
+				"dob": "2006-07-01"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-01-29",
+				"admissionDate": "2017-11-27",
+				"dischargeDate": "2017-12-19"
+			},
+			"claims": {
+				"cliamID": "102",
+				"claimstatus": "received with edit",
+				"revenueCodeServiceUnitsMap": {
+					"0010": "2",
+					"0114": "3",
+					"0112": "1"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1250"
+				}
+		},
+		{
+			"id": "A12103",
+			"recordDate": "2017-01-27",
+			"demographic": {
+				"dob": "1995-01-06"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-03-01",
+				"admissionDate": "2017-11-02",
+				"dischargeDate": "2018-01-19"
+			},
+			"claims": {
+				"cliamID": "103",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0113": "3",
+					"0118": "3",
+					"0117": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1320"
+				}
+		},
+		{
+			"id": "A12104",
+			"recordDate": "2017-02-16",
+			"demographic": {
+				"dob": "2009-07-22"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2017-12-23",
+				"admissionDate": "2017-10-22",
+				"dischargeDate": "2017-11-18"
+			},
+			"claims": {
+				"cliamID": "104",
+				"claimstatus": "received with edit",
+				"revenueCodeServiceUnitsMap": {
+					"0123": "4",
+					"0120": "2",
+					"0100": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1290"
+				}
+		},
+		{
+			"id": "A12105",
+			"recordDate": "2017-01-15",
+			"demographic": {
+				"dob": "1963-07-05"
+			},
+			"encounter": {
+				"cptCodes": ["49329"],
+				"readmissionDate": "2018-03-21",
+				"admissionDate": "2017-11-04",
+				"dischargeDate": "2017-12-18"
+			},
+			"claims": {
+				"cliamID": "105",
+				"claimstatus": "Denied",
+				"revenueCodeServiceUnitsMap": {
+					"0122": "4",
+					"0121": "3",
+					"0112": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1320"
+				}
+		},
+		{
+			"id": "A12106",
+			"recordDate": "2017-01-29",
+			"demographic": {
+				"dob": "1975-04-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-01-13",
+				"admissionDate": "2017-10-23",
+				"dischargeDate": "2017-12-30"
+			},
+			"claims": {
+				"cliamID": "106",
+				"claimstatus": "Denied",
+				"revenueCodeServiceUnitsMap": {
+					"0127": "2",
+					"0128": "3",
+					"0119": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1350"
+				}
+		},
+		{
+			"id": "A12107",
+			"recordDate": "2017-02-13",
+			"demographic": {
+				"dob": "1961-12-28"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2017-12-23",
+				"admissionDate": "2017-11-24",
+				"dischargeDate": "2017-12-14"
+			},
+			"claims": {
+				"cliamID": "107",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0132": "1",
+					"0129": "2",
+					"0119": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+
+		},
+		{
+			"id": "A12108",
+			"recordDate": "2017-01-15",
+			"demographic": {
+				"dob": "2009-06-07"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-01-08",
+				"admissionDate": "2017-10-10",
+				"dischargeDate": "2017-12-21"
+			},
+			"claims": {
+				"cliamID": "108",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0133": "2",
+					"0131": "3",
+					"0128": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1310"
+				}
+		},
+		{
+			"id": "A12109",
+			"recordDate": "2017-01-30",
+			"demographic": {
+				"dob": "1960-04-28"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-01-27",
+				"admissionDate": "2017-11-15",
+				"dischargeDate": "2017-12-30"
+			},
+			"claims": {
+				"cliamID": "109",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0129": "1",
+					"0126": "4",
+					"0114": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1340"
+				}
+		},
+		{
+			"id": "A12110",
+			"recordDate": "2017-01-18",
+			"demographic": {
+				"dob": "2002-10-24"
+			},
+			"encounter": {
+				"cptCodes": ["45612",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-10",
+				"admissionDate": "2017-10-01",
+				"dischargeDate": "2018-01-05"
+			},
+			"claims": {
+				"cliamID": "110",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0135": "3",
+					"0138": "2",
+					"0131": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1269"
+				}
+		},
+		{
+			"id": "A12111",
+			"recordDate": "2017-02-07",
+			"demographic": {
+				"dob": "1975-04-14"
+			},
+			"encounter": {
+				"cptCodes": ["43132"],
+				"readmissionDate": "2018-01-23",
+				"admissionDate": "2017-10-29",
+				"dischargeDate": "2017-12-28"
+			},
+			"claims": {
+				"cliamID": "111",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0140": "2",
+					"0135": "3",
+					"0126": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1378"
+				}
+		},
+		{
+			"id": "A12112",
+			"recordDate": "2017-01-10",
+			"demographic": {
+				"dob": "2014-06-05"
+			},
+			"encounter": {
+				"cptCodes": ["44292",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-08",
+				"admissionDate": "2017-11-22",
+				"dischargeDate": "2017-12-18"
+			},
+			"claims": {
+				"cliamID": "112",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0114": "2",
+					"0126": "3",
+					"0130": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1290"
+				}
+		},
+		{
+			"id": "A12113",
+			"recordDate": "2017-01-11",
+			"demographic": {
+				"dob": "1976-12-04"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-01-12",
+				"admissionDate": "2017-11-06",
+				"dischargeDate": "2017-12-10"
+			},
+			"claims": {
+				"cliamID": "113",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0134": "1",
+					"0138": "3",
+					"0141": "4"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1235"
+				}
+		},
+		{
+			"id": "A12114",
+			"recordDate": "2017-01-21",
+			"demographic": {
+				"dob": "1960-12-17"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2017-12-01",
+				"admissionDate": "2017-10-21",
+				"dischargeDate": "2017-11-13"
+			},
+			"claims": {
+				"cliamID": "114",
+				"claimstatus": "received with edit",
+				"revenueCodeServiceUnitsMap": {
+					"0143": "3",
+					"0123": "4",
+					"0122": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1195"
+				}
+		},
+		{
+			"id": "A12115",
+			"recordDate": "2017-02-16",
+			"demographic": {
+				"dob": "1971-10-17"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-02-04",
+				"admissionDate": "2017-11-10",
+				"dischargeDate": "2018-01-24"
+			},
+			"claims": {
+				"cliamID": "115",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0129": "4",
+					"0146": "3",
+					"0186": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12116",
+			"recordDate": "2017-02-25",
+			"demographic": {
+				"dob": "1985-12-28"
+			},
+			"encounter": {
+				"cptCodes": ["44292",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-28",
+				"admissionDate": "2017-10-28",
+				"dischargeDate": "2017-12-22"
+			},
+			"claims": {
+				"cliamID": "116",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0180": "2",
+					"0170": "3",
+					"0148": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1320"
+				}
+		},
+		{
+			"id": "A12117",
+			"recordDate": "2017-01-29",
+			"demographic": {
+				"dob": "2004-10-10"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-01-04",
+				"admissionDate": "2017-10-17",
+				"dischargeDate": "2017-12-31"
+			},
+			"claims": {
+				"cliamID": "117",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0150": "4",
+					"0160": "3",
+					"0164": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1245"
+				}
+		},
+		{
+			"id": "A12118",
+			"recordDate": "2017-02-13",
+			"demographic": {
+				"dob": "1984-12-30"
+			},
+			"encounter": {
+				"cptCodes": ["49329",
+					"G9309"
+				],
+				"readmissionDate": "2017-12-04",
+				"admissionDate": "2017-10-01",
+				"dischargeDate": "2017-11-16"
+			},
+			"claims": {
+				"cliamID": "118",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0179": "2",
+					"0145": "3",
+					"0116": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1362"
+				}
+		},
+		{
+			"id": "A12119",
+			"recordDate": "2017-01-16",
+			"demographic": {
+				"dob": "1990-03-24"
+			},
+			"encounter": {
+				"cptCodes": ["49329",
+					"G9310"
+				],
+				"readmissionDate": "2018-02-06",
+				"admissionDate": "2017-10-05",
+				"dischargeDate": "2018-01-23"
+			},
+			"claims": {
+				"cliamID": "119",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0143": "2",
+					"0186": "4",
+					"0148": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1315"
+				}
+		},
+		{
+			"id": "A12120",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1968-05-09"
+			},
+			"encounter": {
+				"cptCodes": ["45612",
+					"G9309"
+				],
+				"readmissionDate": "2017-12-11",
+				"admissionDate": "2017-10-31",
+				"dischargeDate": "2017-11-18"
+			},
+			"claims": {
+				"cliamID": "120",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0200": "4",
+					"0180": "3",
+					"0150": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1287"
+				}
+		},
+		{
+			"id": "A12121",
+			"recordDate": "2017-02-27",
+			"demographic": {
+				"dob": "1978-04-03"
+			},
+			"encounter": {
+				"cptCodes": ["43132"],
+				"readmissionDate": "2018-01-07",
+				"admissionDate": "2017-12-08",
+				"dischargeDate": "2017-12-14"
+			},
+			"claims": {
+				"cliamID": "121",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0180": "3",
+					"0142": "1",
+					"0127": "4"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1349"
+				}
+		},
+		{
+			"id": "A12122",
+			"recordDate": "2017-02-19",
+			"demographic": {
+				"dob": "2003-07-21"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"44292"
+				],
+				"readmissionDate": "2018-01-13",
+				"admissionDate": "2017-11-29",
+				"dischargeDate": "2017-12-28"
+			},
+			"claims": {
+				"cliamID": "122",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0172": "2",
+					"0189": "3",
+					"0200": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1367"
+				}
+		},
+		{
+			"id": "A12123",
+			"recordDate": "2017-01-26",
+			"demographic": {
+				"dob": "1970-10-02"
+			},
+			"encounter": {
+				"cptCodes": ["49329",
+					"G9309"
+				],
+				"readmissionDate": "2018-02-06",
+				"admissionDate": "2017-12-17",
+				"dischargeDate": "2018-01-13"
+			},
+			"claims": {
+				"cliamID": "123",
+				"claimstatus": "Declined",
+				"revenueCodeServiceUnitsMap": {
+					"0174": "2",
+					"0219": "2",
+					"0211": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12124",
+			"recordDate": "2017-02-07",
+			"demographic": {
+				"dob": "1973-02-06"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9310"
+				],
+				"readmissionDate": "2018-02-09",
+				"admissionDate": "2017-10-05",
+				"dischargeDate": "2018-01-17"
+			},
+			"claims": {
+				"cliamID": "124",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0212": "2",
+					"0182": "3",
+					"0157": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1800"
+				}
+		},
+		{
+			"id": "A12125",
+			"recordDate": "2017-02-11",
+			"demographic": {
+				"dob": "1987-07-09"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-02-26",
+				"admissionDate": "2017-12-16",
+				"dischargeDate": "2018-01-29"
+			},
+			"claims": {
+				"cliamID": "125",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0152": "3",
+					"0201": "3",
+					"0189": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12126",
+			"recordDate": "2017-02-18",
+			"demographic": {
+				"dob": "2002-03-27"
+			},
+			"encounter": {
+				"cptCodes": ["49329",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-09",
+				"admissionDate": "2017-11-04",
+				"dischargeDate": "2017-12-30"
+			},
+			"claims": {
+				"cliamID": "127",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0155": "4",
+					"0123": "2",
+					"0126": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1500"
+				}
+		},
+		{
+			"id": "A12127",
+			"recordDate": "2017-02-15",
+			"demographic": {
+				"dob": "2000-04-23"
+			},
+			"encounter": {
+				"cptCodes": ["49329",
+					"G9309"
+				],
+				"readmissionDate": "2018-02-06",
+				"admissionDate": "2017-10-26",
+				"dischargeDate": "2017-12-14"
+			},
+			"claims": {
+				"cliamID": "127",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0121": "3",
+					"0138": "4",
+					"0148": "3"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1400"
+				}
+		},
+		{
+			"id": "A12128",
+			"recordDate": "2017-01-10",
+			"demographic": {
+				"dob": "2003-11-19"
+			},
+			"encounter": {
+				"cptCodes": ["32123"],
+				"readmissionDate": "2018-01-05",
+				"admissionDate": "2017-11-27",
+				"dischargeDate": "2017-12-30"
+			},
+			"claims": {
+				"cliamID": "128",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0157": "3",
+					"0183": "3",
+					"0154": "4"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1490"
+				}
+		},
+		{
+			"id": "A12129",
+			"recordDate": "2017-02-29",
+			"demographic": {
+				"dob": "1972-10-10"
+			},
+			"encounter": {
+				"cptCodes": ["49329",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-31",
+				"admissionDate": "2017-12-28",
+				"dischargeDate": "2018-01-09"
+			},
+			"claims": {
+				"cliamID": "129",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0131": "2",
+					"0135": "3",
+					"0152": "4"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12130",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "2000-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-26",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-29"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1315"
+				}
+		},
+		{
+			"id": "A12131",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "2000-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-26",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-30"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1560"
+				}
+		},
+		{
+			"id": "A12132",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "2000-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-30"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1195"
+				}
+		},
+		{
+			"id": "A12133",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "2000-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-30"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received with edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1378"
+				}
+		},
+		{
+			"id": "A12134",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1998-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-22"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1610"
+				}
+		},
+		{
+			"id": "A12135",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1367"
+				}
+		},
+		{
+			"id": "A12136",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1570"
+				}
+		},
+		{
+			"id": "A12137",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["43132",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "Declined",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12138",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1760"
+				}
+		},
+		{
+			"id": "A12139",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1610"
+				}
+		},
+		{
+			"id": "A12139",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1400"
+				}
+		},
+		{
+			"id": "A12140",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1800"
+				}
+		},
+		{
+			"id": "A12141",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1760"
+				}
+		},
+		{
+			"id": "A12142",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "Declined",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1800"
+				}
+		},
+		{
+			"id": "A12143",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12144",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1367"
+				}
+		},
+		{
+			"id": "A12145",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1315"
+				}
+		},
+		{
+			"id": "A12146",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1245"
+				}
+		},
+		{
+			"id": "A12147",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1900"
+				}
+		},
+		{
+			"id": "A12148",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1269"
+				}
+		},
+		{
+			"id": "A12149",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1590"
+				}
+		},
+		{
+			"id": "A12150",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1320"
+				}
+		},
+		{
+			"id": "A12151",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received with edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1590"
+				}
+		},
+		{
+			"id": "A12152",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12153",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12154",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1800"
+				}
+		},
+		{
+			"id": "A12155",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12156",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1235"
+				}
+		},
+		{
+			"id": "A12157",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1610"
+				}
+		},
+		{
+			"id": "A12158",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1900"
+				}
+		},
+		{
+			"id": "A12159",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1245"
+				}
+		},
+		{
+			"id": "A12160",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12161",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12162",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12163",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12164",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12165",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12166",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["32123",
+					"G9310"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12167",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["44292",
+					"G9309"
+				],
+				"readmissionDate": "2018-01-06",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12168",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["44292",
+					"G9310"
+				],
+				"readmissionDate": "2017-12-25",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12169",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["44292",
+					"G9310"
+				],
+				"readmissionDate": "2017-12-25",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12170",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["44292",
+					"G9310"
+				],
+				"readmissionDate": "2017-12-25",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		},
+		{
+			"id": "A12171",
+			"recordDate": "2017-01-22",
+			"demographic": {
+				"dob": "1999-02-16"
+			},
+			"encounter": {
+				"cptCodes": ["44292",
+					"G9310"
+				],
+				"readmissionDate": "2017-12-25",
+				"admissionDate": "2017-12-04",
+				"dischargeDate": "2017-12-20"
+			},
+			"claims": {
+				"cliamID": "130",
+				"claimstatus": "received without edit",
+				"revenueCodeServiceUnitsMap": {
+					"0012": "4",
+					"0115": "4",
+					"0121": "2"
+				}
+			},
+			"billingInformation": {
+				"dailyChargeAmount" : "1600"
+				}
+		}
+	]
+}

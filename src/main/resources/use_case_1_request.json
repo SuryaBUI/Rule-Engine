@@ -1,0 +1,76 @@
+[{
+		"ruleName": "AGE_FILTER",
+		"facts": ["patient_list"],
+		"ruleOperation": "COMPARE_PARAM",
+		"operand": ["demographic.age"],
+		"operation": ["GT"],
+		"value": ["18"]
+	},
+	{
+		"ruleName": "INCLISIVE_A",
+		"facts": ["AGE_FILTER"],
+		"ruleOperation": "INCEXC",
+		"operand": ["encounter.cptCodes"],
+		"operation": ["INC"],
+		"value": ["32123", "44292"]
+	},
+	{
+		"ruleName": "READMISSION_UNPLANNED",
+		"facts": ["INCLISIVE_A"],
+		"ruleOperation": "COMPARE_PARAMS",
+		"operand":["encounter.readmissionDate","encounter.dischargeDate"],
+		"operation": ["MINUS","LE"],
+		"value": ["30"]
+	},
+	{
+		"ruleName": "READMISSION_PLANNED",
+		"facts": ["INCLISIVE_A"],
+		"ruleOperation": "COMPARE_PARAMS",
+		"operand":["encounter.readmissionDate","encounter.dischargeDate"],
+		"operation": ["MINUS","LE"],
+		"value": ["30"]
+	},
+	{
+		"ruleName": "INCLISIVE_B",
+		"facts": ["READMISSION_UNPLANNED"],
+		"ruleOperation": "INCEXC",
+		"operand": ["encounter.cptCodes"],
+		"operation": ["INC"],
+		"value": ["32123"]
+	},
+	{
+		"ruleName": "INCLISIVE_C",
+		"facts": ["READMISSION_PLANNED"],
+		"ruleOperation": "INCEXC",
+		"operand": ["encounter.cptCodes"],
+		"operation": ["INC"],
+		"value": ["32123"]
+	},
+	{
+		"ruleName": "B_plus_C",
+		"facts": ["INCLISIVE_B", "INCLISIVE_C"],
+		"ruleOperation": "ADDITION"
+	},
+	{
+		"ruleName": "B_plus_C_divide_A",
+		"facts": ["B_plus_C", "INCLISIVE_A"],
+		"ruleOperation": "DIVISION"
+	},
+	{
+		"ruleName": "B_divide_B_plus_C",
+		"facts": ["INCLISIVE_B", "B_plus_C"],
+		"ruleOperation": "DIVISION"
+	},
+	{
+		"ruleName": "DATA_COMPLETENESS_D",
+		"facts": ["B_plus_C_divide_A"],
+		"ruleOperation": "PERCENTAGE",
+		"showOutput": true
+	},
+	{
+		"ruleName": "PERFORMANCE_RATE_E",
+		"facts": ["B_divide_B_plus_C"],
+		"ruleOperation": "PERCENTAGE",
+		"showOutput": true
+	}
+]
